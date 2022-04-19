@@ -1,6 +1,6 @@
 # Learning from Temporal Gradient for Semi-supervised Action Recognition
 
-This repository will includes the official pytorch implementation of the paper: [*Learning from Temporal Gradient for Semi-supervised Action Recognition*](https://arxiv.org/abs/2111.13241), CVPR 2022.
+This repository will include the official pytorch implementation of the paper: [*Learning from Temporal Gradient for Semi-supervised Action Recognition*](https://arxiv.org/abs/2111.13241), CVPR 2022.
 
 
 ```
