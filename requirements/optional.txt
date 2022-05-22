@@ -1,0 +1,9 @@
+av
+decord >= 0.4.1
+imgaug
+librosa
+lmdb
+moviepy
+onnx
+onnxruntime
+PyTurboJPEG
