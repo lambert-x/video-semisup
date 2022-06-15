@@ -5,10 +5,11 @@ This repository includes the official pytorch implementation of the paper: [*Lea
 
 
 ## Installation
+The codes are built upon [MMAction2](https://github.com/open-mmlab/mmaction2). You are recommended to follow the official tutorials of [MMAction2](https://github.com/open-mmlab/mmaction2) to prepare the environment and datasets (without temporal gradient extraction). Please use the extraction script (e.g., [script for UCF101](https://github.com/lambert-x/video-semisup/blob/8ff44343bb34485f8ad08d50ca4d8de22e122c1d/tools/data/ucf101/extract_temporal_gradient_frames.sh)) if needed. 
 
 ### Create Environment
 
-First of all, you can run the following scripts to prepare annotations.
+First of all, you can run the following scripts to prepare conda environment.
 
 Install Miniconda (Optional)
 
