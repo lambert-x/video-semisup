@@ -7,6 +7,7 @@ from .nll_loss import NLLLoss
 from .ohem_hinge_loss import OHEMHingeLoss
 from .ssn_loss import SSNLoss
 from .cosine_simi_loss import CosineSimiLoss
+from .simclr_loss_ptv import SimCLRLoss_PTV
 from .simclr_loss_ptv_new import SimCLRLoss_PTV_New
 __all__ = [
     'BaseWeightedLoss', 'CrossEntropyLoss', 'NLLLoss', 'BCELossWithLogits',
