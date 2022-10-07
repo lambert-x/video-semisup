@@ -14,6 +14,6 @@ __all__ = [
     'BinaryLogisticRegressionLoss', 'BMNLoss', 'OHEMHingeLoss', 'SSNLoss',
     'HVULoss',
     # custom imports
-    'NTXentLoss', 'SimCLRLoss', 'SimsiamLoss', 'CosineSimiLoss', 'SimCLRLoss_PTV',
+    'CosineSimiLoss', 'SimCLRLoss_PTV',
     'SimCLRLoss_PTV_New'
 ]
