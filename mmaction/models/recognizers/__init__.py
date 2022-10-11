@@ -14,13 +14,16 @@ from .recognizer3d_semi_crossclip import Semi_Crossclip_Recognizer3D
 from .recognizer3d_semi_appsup_tempsup_simclr_crossclip import Semi_AppSup_TempSup_SimCLR_Crossclip_Recognizer3D
 from .base_semi_apppearance_temporal_simclr import SemiAppTemp_SimCLR_BaseRecognizer
 from .recognizer3d_semi_appsup_tempsup_simclr_crossclip_ptv import Semi_AppSup_TempSup_SimCLR_Crossclip_PTV_Recognizer3D
+from .base_semi_multiview import Semi_MV_BaseRecognizer
+from .Semi_MV_Recognizer3D import Semi_MV_Recognizer3D
+
 __all__ = ['BaseRecognizer', 'Recognizer2D', 'Recognizer3D', 'AudioRecognizer',
             # Custom imports
-            'SemiBaseRecognizer', 'SemiRecognizer3D',
+           'SemiBaseRecognizer', 'SemiRecognizer3D',
            'SemiAppTempBaseRecognizer', 'Semi_AppSup_TempSup_Recognizer3D',
            'Semi_MV_BaseRecognizer', 'Semi_MV_Recognizer3D',
            'SemiAppTemp_AllFixMatch_BaseRecognizer', 'Semi_AppSup_TempSup_AllFixMatch_Recognizer3D',
-           'SemiAppTemp_Simsiam_BaseRecognizer', 'Semi_Crossclip_Recognizer3D',
+           'Semi_Crossclip_Recognizer3D',
            'Semi_AppSup_TempSup_SimCLR_Crossclip_Recognizer3D', 'SemiAppTemp_SimCLR_BaseRecognizer',
            'Semi_AppSup_TempSup_SimCLR_Crossclip_PTV_Recognizer3D'
 ]
